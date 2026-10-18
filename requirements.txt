@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+requests
+beautifulsoup4
+schedule
+flask
+flask-cors
