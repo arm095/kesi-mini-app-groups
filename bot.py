@@ -191,7 +191,7 @@ def start(message):
     markup = telebot.types.InlineKeyboardMarkup()
     btn = telebot.types.InlineKeyboardButton(
         text="📅 Открыть расписание",
-        web_app=telebot.types.WebAppInfo(url="https://ТВОЙ-МИНИ-АПП.pages.dev")  # ← сюда вставишь ссылку
+       web_app=telebot.types.WebAppInfo(url="https://kesi-miniapps.onrender.com")  # ← сюда вставишь ссылку
     )
     markup.add(btn)
     
